@@ -1,0 +1,50 @@
+.login {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.87);
+    color:#fff;
+} 
+input[type = "text"] ,input[type = "password"] {
+    font-weight: bold;
+}
+.closeBtn {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    cursor: pointer;
+
+}
+form {
+    background-color: rgba(0,0,0, 0.9);
+    padding: 2rem;
+    border-radius: 13px;
+}
+form input {
+    box-shadow: none !important;
+}
+.show {
+    display: flex;
+}
+.error {
+    box-shadow: 2px 2px 4px red , -2px 2px 4px red , 2px -2px 4px red , -2px -2px 4px red !important;
+}
+.success {
+    box-shadow: 2px 2px 4px green , -2px 2px 4px green , 2px -2px 4px green , -2px -2px 4px green !important;
+}
+@media only screen and (max-width: 600px) {
+    .closeBtn {
+        right: 50px;
+    }
+    #closeAccountBtn {
+        top: 5px;
+        z-index: 100;
+    }
+  }

@@ -1,0 +1,28 @@
+.product-image img{
+    height: 300px;
+}
+.product-title {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#addtocartBtn:active {
+    transform: scale(0.75);
+}
+.cart {
+    position: fixed;
+    top: 89px;
+    right: 0;
+    z-index: 100;
+    color: #ffffff;
+}
+.cart:hover {
+    color: #ffffff;
+}
+#float-form {
+    position: fixed;
+    top: 140px;
+    right: 0;
+    z-index: 100;
+}
